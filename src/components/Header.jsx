@@ -1,9 +1,13 @@
 import img_car from "../assets/img/img_car.png";
 import { Button } from "@mui/base";
+import Navbar from "./Navbar";
 
 export default function Header() {
   return (
     <>
+      <div>
+        <Navbar />
+      </div>
       <div>
         <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
         <h3>

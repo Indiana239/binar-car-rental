@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+
+.logo {
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
