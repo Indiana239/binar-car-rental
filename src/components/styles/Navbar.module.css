@@ -1,12 +1,25 @@
 .container {
-  display: flex;
+  display: grid;
+  margin-top: 25px;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-bottom: 40px;
+  grid-auto-flow: column;
+  /* background-color: #f1f3ff; */
 }
 
-.logo {
+/* .logo {
+  display: flex;
+  justify-content: start;
 }
 
 .nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: end;
+} */
+
+.nav {
+  display: grid;
+  grid-auto-flow: column;
 }

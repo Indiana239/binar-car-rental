@@ -1,0 +1,39 @@
+.list {
+  list-style-type: none;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.image {
+  width: 340px;
+  height: 300px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+
+.list {
+  display: flex;
+}
+
+.check {
+  width: 35px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
